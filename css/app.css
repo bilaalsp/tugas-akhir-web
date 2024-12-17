@@ -79,8 +79,14 @@ aside {
   background-color: rgb(255, 170, 59);
 }
 
-aside header {
+aside article {
   text-align: center;
+  display: block;
+}
+
+aside .icons {
+  display: flex;
+  flex-direction: row;
 }
 
 footer {
